@@ -1,0 +1,29 @@
+1.npm is the Node Package Manager. We use this to intall and manage "packages" which are sets of files contituting tools, to help
+building an app.
+
+2. package.json lists all the packages and dependencies included in your app.
+
+3.{
+  "name": "demo",
+  
+"version": "1.0.0",
+  
+"description": "",
+  
+"main": "index.js",
+  
+"scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  
+"author": "",
+  "license": "ISC",
+  
+"dependencies": {
+    "express": "^4.16.4",
+    "lodash": "^4.17.11"
+  }
+}
+
+
+Lodash installed
