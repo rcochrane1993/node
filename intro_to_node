@@ -1,0 +1,11 @@
+1. the client handles user input, then based on that input makes HTTP requests to the server. The server then
+then communicates with the database to generate responses and send the data back to the client so that it
+can render the response data.
+
+2.The rise in Nodes popularity is due to its use of "Isomorphic Javascript", which means that 
+you can use javascript to write code on both the client and the server, making it much easier to 
+write code for the two. Examples of companies that use Node.js are Paypal, LinkedIn, and Walmart.
+
+3.
+
+
