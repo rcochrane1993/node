@@ -1,0 +1,16 @@
+1.The difference is that `readdirSync` will "block" all other functions from running until it is finished, while `readdir`
+can begin reading a directory and continue with other processes as well.
+2. the event loop is simply a sysytem to sequentially manage multiple running asynchronous tasks
+3. synchronous and blocking
+4. asynchronous and non-blocking
+5. C,A,B
+6. the console will log "hello" followed by "friend"
+7.
+function practiceGuitar(time,callback){
+  console.log("i started practicing guitar at"+''+time);
+  callback();
+}
+
+practiceGuitar('7:24am', ()=>{
+  console.log("finished practicing guitar")
+})
